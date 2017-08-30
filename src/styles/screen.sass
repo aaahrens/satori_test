@@ -1,0 +1,24 @@
+@import ./partials/messages
+@import ./partials/variables/sizes
+@import ./partials/variables/colors
+@import ./partials/header
+@import ./partials/user
+
+body
+  margin: 0 auto
+  padding: 0 auto
+  background: #eee
+  width: 100%
+
+
+*
+  font-family: Helvetica, serif
+  font-size: 12pt
+
+.body-container
+  margin: $header_size auto 0
+  position: absolute
+  height: calc(100vh - #{$header_size})
+  width: 100%
+
+

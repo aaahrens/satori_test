@@ -1,0 +1,3 @@
+export const CHANGE_NAME = "CHANGE_NAME";
+
+export const TOGGLE_CHANGE_MENU = "TOGGLE_CHANGE_MENU";

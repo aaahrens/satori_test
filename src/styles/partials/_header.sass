@@ -1,0 +1,32 @@
+@import "variables/sizes"
+.header-container
+  background: #2d2d2d
+  width: 100%
+  height: $header_size
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: flex-end
+  align-items: center
+  position: fixed
+  top: 0
+  right: 0
+  z-index: 200
+  div:last-child
+    margin-right: 15px
+
+#left-header
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  display: flex
+  align-items: center
+  margin-left: 10px
+  .home-button
+    width: 30px
+    height: 30px
+    cursor: pointer
+    img
+      height: inherit
+      width: inherit
